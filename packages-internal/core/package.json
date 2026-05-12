@@ -62,6 +62,13 @@
       "node": "./dist-cjs/submodules/protocols/index.js",
       "import": "./dist-es/submodules/protocols/index.js",
       "require": "./dist-cjs/submodules/protocols/index.js"
+    },
+    "./util": {
+      "types": "./dist-types/submodules/util/index.d.ts",
+      "module": "./dist-es/submodules/util/index.js",
+      "node": "./dist-cjs/submodules/util/index.js",
+      "import": "./dist-es/submodules/util/index.js",
+      "require": "./dist-cjs/submodules/util/index.js"
     }
   },
   "files": [
@@ -73,6 +80,8 @@
     "./httpAuthSchemes.js",
     "./protocols.d.ts",
     "./protocols.js",
+    "./util.d.ts",
+    "./util.js",
     "dist-*/**"
   ],
   "sideEffects": false,
